@@ -11,6 +11,8 @@
 		C544C4B7251EDA4B004ED487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C544C4B6251EDA4B004ED487 /* ContentView.swift */; };
 		C544C4B9251EDA4B004ED487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C544C4B8251EDA4B004ED487 /* Assets.xcassets */; };
 		C544C4BC251EDA4B004ED487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C544C4BB251EDA4B004ED487 /* Preview Assets.xcassets */; };
+		C544C4C5251EDD7C004ED487 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C544C4C4251EDD7C004ED487 /* Emoji.swift */; };
+		C544C4CC251EE033004ED487 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C544C4CB251EE033004ED487 /* EmojiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C544C4B8251EDA4B004ED487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C544C4BB251EDA4B004ED487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C544C4BD251EDA4B004ED487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C544C4C4251EDD7C004ED487 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		C544C4CB251EE033004ED487 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				C544C4B8251EDA4B004ED487 /* Assets.xcassets */,
 				C544C4BD251EDA4B004ED487 /* Info.plist */,
 				C544C4BA251EDA4B004ED487 /* Preview Content */,
+				C544C4C4251EDD7C004ED487 /* Emoji.swift */,
+				C544C4CB251EE033004ED487 /* EmojiView.swift */,
 			);
 			path = emoji;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C544C4C5251EDD7C004ED487 /* Emoji.swift in Sources */,
+				C544C4CC251EE033004ED487 /* EmojiView.swift in Sources */,
 				C544C4B7251EDA4B004ED487 /* ContentView.swift in Sources */,
 				C544C4B5251EDA4B004ED487 /* emojiApp.swift in Sources */,
 			);
